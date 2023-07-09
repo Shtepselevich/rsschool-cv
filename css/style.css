@@ -74,7 +74,7 @@ img {
 }
 
 .contacts {
-  background-color: #CFCFCF;
+  background-color: #b1b1b1;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -90,6 +90,7 @@ img {
 .contacts-content__link {
   text-decoration: none;
   padding-right: 30px;
+  color: #626262;
 }
 
 .about {
@@ -140,11 +141,11 @@ img {
   padding-bottom: 10px;
 }
 .experience-header {
-  color: #b1b1b1;
+  color: #cfcfcf;
 }
 .experience-content {
   padding-left: 30px;
-  color: #7e7e7e;
+  color: #b1b1b1;
 }
 
 .education {
@@ -176,4 +177,25 @@ img {
 }
 .languages-content__info {
   padding-right: 30px;
+}
+
+.footer {
+  background-color: #000;
+}
+.footer-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 30px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+}
+.footer-menu__git {
+  width: 100px;
+  height: 20%;
+}
+.footer-menu__rs {
+  width: 100px;
+  height: 20%;
 }
