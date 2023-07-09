@@ -23,8 +23,8 @@ img {
 
 .header {
   background-color: #fff;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 35px;
+  padding-bottom: 35px;
 }
 .header-top {
   display: flex;
@@ -127,6 +127,7 @@ img {
 }
 .skills-content__info {
   padding-right: 30px;
+  color: #3b3b3b;
 }
 
 .code {
