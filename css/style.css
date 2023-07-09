@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: "Mulish", sans-serif;
   font-family: "Nunito", sans-serif;
@@ -70,11 +75,38 @@ img {
 
 .contacts {
   background-color: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .contacts-content {
-  list-style-type: none;
-  padding-left: 0;
+  display: flex;
+  justify-content: start;
+  padding-left: 30px;
 }
 .contacts-content__link {
   text-decoration: none;
+  padding-right: 30px;
+}
+
+.about {
+  background-color: #9e9e9e;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.about-text {
+  padding-left: 30px;
+}
+
+.skills {
+  background-color: #7e7e7e;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.skills-content {
+  padding-left: 30px;
+  display: flex;
+  justify-content: start;
+}
+.skills-content__info {
+  padding-right: 30px;
 }
